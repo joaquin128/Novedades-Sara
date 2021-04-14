@@ -1,0 +1,119 @@
+body{
+    font-family: arial, helvetica;
+    background: #e8e8e8;
+}
+
+figure{
+
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    overflow: hidden; 
+}
+
+figcaption {
+
+        color: white;
+        transition: all 0.3s;
+
+        background: rgba( 0, 0, 0, 0.7 );
+        position: absolute;
+        left: 0px;
+        bottom: -150px;
+        width: 90%;
+        padding: 5%;
+
+}
+
+figure:hover figcaption{
+
+    bottom: 0px;
+}
+
+
+.menu{  list-style: none;
+
+    padding: 0;
+    background: #092327;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #ef8354
+    transition: all .3s;
+}
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu{
+    display: block;
+    padding: 0px;
+    color: #fff;
+    font-family: arial, helvetica;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+#contenedor {
+    width: 50%;
+    margin: auto;
+    background: radial-gradient(blue,red);
+    text-align: center;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+input[type="radio"] { display: none; }
+
+label {
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+#elementos { margin-top: 20px; }
+
+img {
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+
+
+#contenedor #mamelucos:checked ~ #elementos .cobijitas {
+    display: none;
+}
+
+
+
+#contenedor #cobijitas:checked ~ #elementos .mamelucos {
+    display: none;
+}
+
+
+
+

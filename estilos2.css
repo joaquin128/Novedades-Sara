@@ -1,0 +1,254 @@
+body{
+  background-color: lightgrey;
+  font-family: arial, helvectica;
+}
+
+.menu{  list-style: none;
+
+  padding: 0;
+  background: #092327;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 20px;
+  display: block;
+}
+
+.menu li{
+  position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+  background: #ef8354
+  transition: all .3s;
+}
+
+.submenu{
+  position: absolute;
+  background: #333333;
+  width: 120%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+}
+
+.submenu{
+  display: block;
+  padding: 15px;
+  color: #fff;
+  font-family: arial, helvetica;
+  text-decoration: none;
+}
+.menu li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.container{
+  margin: auto;
+  background-color: white;
+  width: 1000px;
+  padding: 60px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 1000px;
+  height: 600px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider li img{
+  width: 60%;
+  height: 600px;
+  object-fit: cover;
+
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu1{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu1 li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu1 li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.container2{
+  margin: auto;
+  background-color: white;
+  width: 1000px;
+  padding: 60px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider2{
+  position: relative;
+  width: 1000px;
+  height: 600px;
+}
+
+ul.slider2 li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider2 li img{
+  width: 60%;
+  height: 600px;
+  object-fit: cover;
+
+}
+
+ul.slider2 li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider2 li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu2{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu2 li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu2 li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
+
+.container3{
+  margin: auto;
+  background-color: white;
+  width: 1000px;
+  padding: 60px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider3{
+  position: relative;
+  width: 1000px;
+  height: 600px;
+}
+
+ul.slider3 li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+    background:#fff;
+}
+
+ul.slider3 li img{
+  width: 60%;
+  height: 600px;
+  object-fit: cover;
+
+}
+
+ul.slider3 li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider3 li:target {
+    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+}
+
+.menu3{
+  text-align: center;
+  margin: 20px;
+}
+
+.menu3 li{
+  display: inline-block;
+  text-align: center;
+}
+
+.menu3 li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: grey;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  font-size: 20px;
+  border-radius: 100%;
+}
